@@ -79,12 +79,12 @@ Or install it yourself as:
 
 1. Include this gem in class.
 2. Create class's object:
-    game = My_class.new("player1", "player2",...)
+    `game = My_class.new("player1", "player2",...)`
     "player1", "player2",...  - player's names
 3. Begin the game:
-    game.in_progress
+    `game.in_progress`
 4. Get a winner:
-    game.finished
+    `game.finished`
 5. next_roll? method can accept/reject (return true/false) it next roll
 
 
