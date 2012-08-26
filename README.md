@@ -85,7 +85,7 @@ Or install it yourself as:
     `game.in_progress`
 4. Get a winner:
     `game.finished`
-5. next_roll? method can accept/reject (return true/false) it next roll
+5. `next_roll?` method can accept/reject (return true/false) it next roll
 
 
 ## Contributing
