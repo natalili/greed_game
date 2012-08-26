@@ -1,7 +1,6 @@
 require "greed_game/version"
 require "greed_game/dice_set"
 require "greed_game/player"
-#require "game"
 
 module GreedGame
 

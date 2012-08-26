@@ -1,10 +1,12 @@
 require 'spec_helper'
 
 describe GreedGame do
-  before(:each) {class Game
-                   include GreedGame
-                 end
-                 @game = Game.new("player1", "player2")}
+  before(:each) do
+    class Game
+      include GreedGame
+    end
+    @game = Game.new("player1", "player2")
+  end
     
   context "#name" do
     it "shuld return gem name" do

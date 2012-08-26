@@ -36,7 +36,8 @@ class Player
   
   def next_roll?
     if @count > 0
-      puts "Player #{name}, You have #{@score} score and You can use #{@count} dice. If You whont do roll, enter 'y'"
+      puts "Player #{name}, You have #{@score} score and You can use #{@count} dice. \n" +
+	   "If You want do roll, enter 'y'"
       answer = STDIN.gets.chop!
       answer == "y"
     else
