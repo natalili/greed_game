@@ -1,5 +1,10 @@
 require "greed_game/version"
+require "dice_set"
+require "player"
+require "game"
 
 module GreedGame
-  # Your code goes here...
+  def self.name
+    "Greed Game"
+  end
 end

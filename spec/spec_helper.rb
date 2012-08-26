@@ -1,0 +1,6 @@
+require 'rubygems'
+require 'bundler/setup'
+require 'greed_game'
+require 'dice_set'
+require 'player'
+require 'game'
