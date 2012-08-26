@@ -1,7 +1,5 @@
 # GreedGame
 
-TODO: Write a gem description
-
 = Playing Greed
 
 Greed is a dice game played among 2 or more players, using 5
@@ -79,7 +77,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Include this gem in class.
+2. Create class's object:
+    game = My_class.new("player1", "player2",...)
+    "player1", "player2",...  - player's names
+3. Begin the game:
+    game.in_progress
+4. Get a winner:
+    game.finished
+5. next_roll? method can accept/reject (return true/false) it next roll
+
 
 ## Contributing
 
