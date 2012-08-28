@@ -90,21 +90,21 @@ Or install it yourself as:
 
 Example:
 
-`require 'greed_game'
+    require 'greed_game'
 
-class Game
-  include GreedGame
-end
+    class Game
+      include GreedGame
+    end
 
-class Player
-  def next_roll?
-    false
-  end
-end
+    class Player
+      def next_roll?
+        false
+      end
+    end
 
-test = Game.new(1,2)
-test.in_progress
-puts test.finished`
+    test = Game.new(1,2)
+    test.in_progress
+    puts test.finished
 
 ## Contributing
 
