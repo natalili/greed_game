@@ -77,16 +77,34 @@ Or install it yourself as:
 
 ## Usage
 
-1. Include this gem in class.
-2. Create class's object:
+1. Require 'greed_game'
+2. Include GreedGame in class.
+3. Create class's object:
     `game = My_class.new("player1", "player2",...)`
     "player1", "player2",...  - player's names
-3. Begin the game:
+4. Begin the game:
     `game.in_progress`
-4. Get a winner:
+5. Get a winner:
     `game.finished`
-5. `next_roll?` method can accept/reject (return true/false) it next roll
+6. Method  `next_roll?`  of  class Player can accept/reject (return true/false) it next roll
 
+Example:
+
+`require 'greed_game'
+
+class Game
+  include GreedGame
+end
+
+class Player
+  def next_roll?
+    false
+  end
+end
+
+test = Game.new(1,2)
+test.in_progress
+puts test.finished`
 
 ## Contributing
 
